@@ -1,6 +1,6 @@
 #![no_std] //does not links the standard libraries of rust
 #![no_main]//disables all rust level entry points
-
+mod vga_buffer;
 use core::panic::PanicInfo;
 
 //This function is called on panic
